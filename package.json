@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "type": "module",
   "main": "electron/main.cjs",
-  "author": "Mylrz",
+  "author": {
+    "name": "Mylrz",
+    "email": "mylrz@users.noreply.github.com"
+  },
   "description": "Modern high-performance offline music decrypter & converter",
   "scripts": {
     "dev": "vite",
@@ -47,6 +50,13 @@
   "build": {
     "appId": "com.mylrz.sonicunpack",
     "productName": "SonicUnpack",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Mylrz",
+        "repo": "sonic-unpack"
+      }
+    ],
     "directories": {
       "output": "release"
     },
@@ -81,6 +91,7 @@
       "artifactName": "${productName}-${version}-win-${arch}.${ext}"
     },
     "linux": {
+      "maintainer": "Mylrz <mylrz@users.noreply.github.com>",
       "target": [
         "AppImage",
         "deb"
