@@ -13,9 +13,23 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8.svg?style=flat-square)](https://tailwindcss.com/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
-[English](#english-readme) • [简体中文](#简体中文说明)
+[English](#english-readme) • [简体中文](#简体中文说明) • [📥 立即下载软件 (Download)](#download-software)
 
 </div>
+
+---
+
+<a name="download-software"></a>
+### 📥 跨平台桌面客户端下载 (Download Desktop App)
+
+| 操作系统 | 下载链接 | 说明 |
+| :--- | :--- | :--- |
+| **🍎 macOS** (Apple Silicon) | [**SonicUnpack-1.0.0-mac-arm64.dmg**](https://github.com/Mylrz/sonic-unpack/releases/download/v1.0.0/SonicUnpack-1.0.0-mac-arm64.dmg) | 标准 macOS 拖拽安装包 |
+| **🪟 Windows** (安装版) | [**SonicUnpack-Setup-1.0.0-win-x64.exe**](https://github.com/Mylrz/sonic-unpack/releases/download/v1.0.0/SonicUnpack-Setup-1.0.0-win-x64.exe) | 标准 Windows 引导安装程序 |
+| **🪟 Windows** (便携版) | [**SonicUnpack-Portable-1.0.0-win-x64.exe**](https://github.com/Mylrz/sonic-unpack/releases/download/v1.0.0/SonicUnpack-Portable-1.0.0-win-x64.exe) | 绿色免安装，双击直接运行 |
+| **🐧 Linux** (AppImage) | [**SonicUnpack-1.0.0-linux-x86_64.AppImage**](https://github.com/Mylrz/sonic-unpack/releases/download/v1.0.0/SonicUnpack-1.0.0-linux-x86_64.AppImage) | 免安装通用 Linux 可执行文件 |
+| **🐧 Linux** (Debian/Ubuntu) | [**SonicUnpack-1.0.0-linux-amd64.deb**](https://github.com/Mylrz/sonic-unpack/releases/download/v1.0.0/SonicUnpack-1.0.0-linux-amd64.deb) | Debian/Ubuntu 系统安装包 |
+| 🌐 **Web 在线免安装版** | [**https://mylrz.github.io/sonic-unpack/**](https://mylrz.github.io/sonic-unpack/) | 打开浏览器直接使用 / PWA 安装 |
 
 ---
 
