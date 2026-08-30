@@ -12,18 +12,30 @@ export const TitleBar: React.FC<TitleBarProps> = ({ language = 'zh-CN' }) => {
   const isMac = typeof navigator !== 'undefined' && /Mac/.test(navigator.userAgent);
 
   const handleMinimize = () => {
+    if ((window as any).electronAPI?.minimizeWindow) {
+      (window as any).electronAPI.minimizeWindow();
+      return;
+    }
     if ((window as any).__TAURI__) {
       (window as any).__TAURI__.window?.getCurrentWindow?.()?.minimize?.();
     }
   };
 
   const handleMaximize = () => {
+    if ((window as any).electronAPI?.maximizeWindow) {
+      (window as any).electronAPI.maximizeWindow();
+      return;
+    }
     if ((window as any).__TAURI__) {
       (window as any).__TAURI__.window?.getCurrentWindow?.()?.toggleMaximize?.();
     }
   };
 
   const handleClose = () => {
+    if ((window as any).electronAPI?.closeWindow) {
+      (window as any).electronAPI.closeWindow();
+      return;
+    }
     if ((window as any).__TAURI__) {
       (window as any).__TAURI__.window?.getCurrentWindow?.()?.close?.();
     }
@@ -70,7 +82,7 @@ export const TitleBar: React.FC<TitleBarProps> = ({ language = 'zh-CN' }) => {
             onClick={handleMaximize}
             className="w-7 h-7 flex items-center justify-center rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800 text-[var(--text-muted)] hover:text-[var(--text-main)] transition-colors"
           >
-            <Square className="w-3 h-3" />
+            <Square className="w-3.5 h-3.5" />
           </button>
           <button
             onClick={handleClose}
