@@ -88,7 +88,7 @@
           ]
         }
       ],
-      "artifactName": "${productName}-${version}-win-${arch}.${ext}"
+      "artifactName": "${productName}-${target}-${version}-win-${arch}.${ext}"
     },
     "linux": {
       "maintainer": "Mylrz <mylrz@users.noreply.github.com>",
