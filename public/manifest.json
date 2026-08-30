@@ -1,0 +1,16 @@
+{
+  "short_name": "SonicUnpack",
+  "name": "SonicUnpack - 音乐格式解密与转换站",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#F8F9FA",
+  "theme_color": "#18181B",
+  "display": "standalone",
+  "orientation": "any"
+}
